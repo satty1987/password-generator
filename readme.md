@@ -9,7 +9,7 @@ Getting it
 ### For use with deno
 
 ```ts
-import { passwordGenerator } from "https://deno.land/x/json_tree/mod.ts";
+import { passwordGenerator } from "https://deno.land/x/password-generator/mod.ts";
 ```
 
 ## Usage
