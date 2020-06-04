@@ -25,7 +25,7 @@ allowFields.all = allowFields.lower + allowFields.upper + allowFields.number + a
 
 function passwordGenerator(pattern:any, length?:any, options?:any) {
     if (typeof pattern === 'undefined') {
-        throw new Error('randomPassword expects a string or number as a parameter');
+        throw new Error('Password expects a string or number as a parameter');
     }
 
     let custom = false;
