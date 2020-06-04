@@ -78,6 +78,3 @@ function passwordGenerator(pattern:any, length?:any, options?:any) {
 };
 
 export {passwordGenerator}
-
-console.log(passwordGenerator('*',10))
-console.log(passwordGenerator('Aa0', 10))
